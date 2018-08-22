@@ -22,7 +22,8 @@
 	<!-- Open Graph - Article -->
 	<meta name="article:tag" content="{{ range .Params.tags }}{{.}} {{end}}">
 	<!-- Adobe TypeKit for SourceHanSans / SourceHanSerif font families -->
-	<link rel="stylesheet" href="https://use.typekit.net/kcu4pbw.css">
+	<script src="https://use.typekit.net/kcu4pbw.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 	<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/style{{ $.Site.Params.style }}.css">
 	<!-- Google Analytics -->
 	{{ template "_internal/google_analytics_async.html" . }}
