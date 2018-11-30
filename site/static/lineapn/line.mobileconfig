@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>APNs</key>
+			<array>
+				<dict>
+					<key>AuthenticationType</key>
+					<string>CHAP</string>
+					<key>Name</key>
+					<string>line.me</string>
+					<key>Password</key>
+					<string>line</string>
+					<key>Username</key>
+					<string>line@line</string>
+				</dict>
+			</array>
+			<key>AttachAPN</key>
+			<dict>
+				<key>AuthenticationType</key>
+				<string>CHAP</string>
+				<key>Name</key>
+				<string>line.me</string>
+				<key>Password</key>
+				<string>line</string>
+				<key>Username</key>
+				<string>line@line</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>モバイルデータ通信設定を構成します</string>
+			<key>PayloadDisplayName</key>
+			<string>モバイルデータ通信</string>
+			<key>PayloadIdentifier</key>
+			<string>line.me</string>
+			<key>PayloadType</key>
+			<string>com.apple.cellular</string>
+			<key>PayloadUUID</key>
+			<string>C17AEA32-947E-4A8E-A020-E684F4B2D84B</string>
+			<key>PayloadVersion</key>
+			<real>1</real>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>LINEモバイル用のAPN構成プロファイル</string>
+	<key>PayloadDisplayName</key>
+	<string>LINEモバイルAPN</string>
+	<key>PayloadIdentifier</key>
+	<string>line.me</string>
+	<key>PayloadOrganization</key>
+	<string>LINEモバイル</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>814A1C96-928E-47B3-A0DB-3E43686EB632</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
